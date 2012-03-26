@@ -11,13 +11,21 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+//以下追加、This code is added.
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
+@synthesize tabBarController;
+@synthesize masterViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //追加、This code is added.
+    masterViewController.managedObjectContext = self.managedObjectContext;  
+    [_window addSubview:tabBarController.view];
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 							
@@ -54,9 +62,11 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
+    //追加、This code is added.
     [self saveContext];
 }
 
+//以下追加、This code is added.
 - (void)saveContext
 {
     NSError *error = nil;

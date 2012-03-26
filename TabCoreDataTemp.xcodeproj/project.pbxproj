@@ -22,6 +22,9 @@
 		663597A21520C014000DF717 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663597A11520C014000DF717 /* SecondViewController.m */; };
 		663597A41520C014000DF717 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 663597A31520C014000DF717 /* second.png */; };
 		663597A61520C014000DF717 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 663597A51520C014000DF717 /* second@2x.png */; };
+		663597AE1520C06D000DF717 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663597AD1520C06D000DF717 /* MasterViewController.m */; };
+		663597B11520C083000DF717 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663597B01520C083000DF717 /* DetailViewController.m */; };
+		66B4ACD61520C7B20015159A /* TabCoreDataTempReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66B4ACD51520C7B20015159A /* TabCoreDataTempReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,22 +33,27 @@
 		663597811520C014000DF717 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		663597831520C014000DF717 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		663597851520C014000DF717 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		663597891520C014000DF717 /* TabCoreDataTemp-Info.plist */ = {isa = PBXFileReference; path = "TabCoreDataTemp-Info.plist"; sourceTree = "<group>"; };
+		663597891520C014000DF717 /* TabCoreDataTemp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabCoreDataTemp-Info.plist"; sourceTree = "<group>"; };
 		6635978B1520C014000DF717 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6635978D1520C014000DF717 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6635978F1520C014000DF717 /* TabCoreDataTemp-Prefix.pch */ = {isa = PBXFileReference; path = "TabCoreDataTemp-Prefix.pch"; sourceTree = "<group>"; };
-		663597901520C014000DF717 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6635978F1520C014000DF717 /* TabCoreDataTemp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabCoreDataTemp-Prefix.pch"; sourceTree = "<group>"; };
+		663597901520C014000DF717 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663597911520C014000DF717 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		663597941520C014000DF717 /* TabCoreDataTemp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabCoreDataTemp.xcdatamodel; sourceTree = "<group>"; };
 		663597971520C014000DF717 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		663597991520C014000DF717 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		663597991520C014000DF717 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		6635979A1520C014000DF717 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		6635979C1520C014000DF717 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		6635979E1520C014000DF717 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		663597A01520C014000DF717 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		663597A01520C014000DF717 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		663597A11520C014000DF717 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		663597A31520C014000DF717 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		663597A51520C014000DF717 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		663597AC1520C06D000DF717 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		663597AD1520C06D000DF717 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		663597AF1520C083000DF717 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		663597B01520C083000DF717 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		66B4ACD51520C7B20015159A /* TabCoreDataTempReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TabCoreDataTempReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,11 @@
 		663597871520C014000DF717 /* TabCoreDataTemp */ = {
 			isa = PBXGroup;
 			children = (
+				66B4ACD51520C7B20015159A /* TabCoreDataTempReadMe.txt */,
+				663597AF1520C083000DF717 /* DetailViewController.h */,
+				663597B01520C083000DF717 /* DetailViewController.m */,
+				663597AC1520C06D000DF717 /* MasterViewController.h */,
+				663597AD1520C06D000DF717 /* MasterViewController.m */,
 				663597901520C014000DF717 /* AppDelegate.h */,
 				663597911520C014000DF717 /* AppDelegate.m */,
 				663597961520C014000DF717 /* MainStoryboard.storyboard */,
@@ -178,6 +191,7 @@
 				6635979F1520C014000DF717 /* first@2x.png in Resources */,
 				663597A41520C014000DF717 /* second.png in Resources */,
 				663597A61520C014000DF717 /* second@2x.png in Resources */,
+				66B4ACD61520C7B20015159A /* TabCoreDataTempReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +207,8 @@
 				663597951520C014000DF717 /* TabCoreDataTemp.xcdatamodeld in Sources */,
 				6635979B1520C014000DF717 /* FirstViewController.m in Sources */,
 				663597A21520C014000DF717 /* SecondViewController.m in Sources */,
+				663597AE1520C06D000DF717 /* MasterViewController.m in Sources */,
+				663597B11520C083000DF717 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +320,7 @@
 				663597AB1520C014000DF717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
