@@ -32,3 +32,6 @@ View Controller -Root View Controller's class "MasterViewController",View Contro
 AppDelegate.h and .m add code.
 12.MasterViewController.hと.mの//追加 と書かれている部分を追加する
 MasterViewController.h and. m add code.
+
+13.DetailViewController.hと.mの//追加 と書かれている部分を追加する
+DetailViewController.h and. m add code.
